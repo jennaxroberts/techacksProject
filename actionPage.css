@@ -1,0 +1,173 @@
+body{
+  background-color: #DCCCBB;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAB464;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 14px;
+  font-family: verdana;
+  color: #262626;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.navTitle) {
+  color: #A7754D;
+}
+
+.actionPage{
+  text-decoration: underline;
+}
+
+.navTitle{
+  font-size: 40px;
+  font-family: impact;
+  padding-left: 5vw;
+}
+
+.homePage,.actionPage,.aboutPage,.learnPage{
+  padding-top: 27px;
+}
+
+.aboutPage{
+  padding-right: 5vw;
+}
+
+.filler{
+  font-family: American Typewriter;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: cadetblue;
+  height: 68px;
+}
+
+.actionClass{
+  background-color: #A7754D;
+  padding-right: 90px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 60vw;
+  //border-radius: 10px;
+  margin-left: -8px;
+  font-family: verdana;
+  color: whitesmoke;
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+
+}
+
+.timeline{
+background-color: #A7754D;
+  padding-right: 50px;
+  padding-left: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  //margin-right: -8px;
+  //border-radius: 10px;
+  font-family: verdana;
+  color: whitesmoke;
+  position: absolute;
+  right: 0vw;
+  width: 50vw;
+
+}
+
+.bottomDiv{
+  background-color: #262626;
+  height: 5vw;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -20px;
+}
+
+.bottomPara{
+  color: whitesmoke;
+  font-family: impact;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.savingsInfo,.investmentInfo{
+  display: none;
+}
+
+.show {
+  display: initial;
+}
+
+.hide {
+  display: none;
+}
+
+.buttonsInfo{
+  background-color: #A7754D;
+  margin-left: -8px;
+  width: 30vw;
+  padding-right: 90px;
+  padding-left: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  left: 0vw;
+  //bottom: -20vw;
+}
+
+.buttonsContent{
+  margin-left: 3vw;
+  margin-top: 2vw;
+  width: 18vw;
+  color: whitesmoke;
+  font-family: verdana;
+}
+
+.savingsButton,.investmentButton{
+  font-family: verdana;
+  display: block;
+  font-size: 0.8vw;
+  background-color: #DCCCBB;
+  border-color: #DCCCBB;
+  color: #262626;
+  border-radius: 10px;
+  padding: 0.5vw;
+  //width: 20vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.bigFiller{
+  background-color: aqua;
+  height: 40vw;
+}
+
+.piggyBank3{
+  position: absolute;
+  height: 5vw;
+  top: 7.5vw;
+  right: 3vw;
+  
+}
+hel l o
+
+hiya

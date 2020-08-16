@@ -1,0 +1,197 @@
+body{
+  background-color: #DCCCBB;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAB464;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 14px;
+  font-family: verdana;
+  color: #262626;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.navTitle) {
+  color: #A7754D;
+}
+
+.aboutPage{
+  text-decoration: underline;
+}
+
+.navTitle{
+  font-size: 40px;
+  font-family: impact;
+  padding-left: 5vw;
+}
+
+.homePage,.actionPage,.aboutPage,.learnPage{
+  padding-top: 27px;
+}
+
+.aboutPage{
+  padding-right: 5vw;
+}
+
+.filler{
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: cadetblue;
+  height: 68px;
+}
+
+.aboutImage{
+  //margin-top: 2vw;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-image: url("https://media0.giphy.com/media/l0HlDDyxBfSaPpU88/giphy.gif");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutText {
+  //text-align: center;
+  padding-right: 14px;
+  padding-left: 14px;
+  position: absolute;
+  top: 82%;
+  left: 185px;
+  transform: translate(-50%, -50%);
+  color: #262626;
+  background-color: #EAB464;
+  font-family: impact;
+  font-size: 25px;
+}
+
+.missionDiv{
+  background-color: #A7754D;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  border-radius: 10px;
+  font-family: verdana;
+  color: whitesmoke;
+}
+
+.missionHeader{
+  font-size: 30px;
+}
+
+.missionPara{
+  font-size: 18px;
+}
+
+.bioDiv{
+  background-color: #A7754D; 
+  height: 30vw;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-bottom: -18px;
+  position: relative;
+}
+
+.esther{
+  position: absolute;
+  height: 20vw;
+  width: 30vw;
+  background-color: #DCCCBB;
+  border-radius: 10px;
+  left: 15vw;
+  top: 5vw;
+}
+
+.jenna{
+  position: absolute;
+  height: 20vw;
+  width: 30vw;
+  background-color: #DCCCBB;
+  border-radius: 10px;
+  right: 15vw;
+  top: 5vw;
+}
+
+.estherText{
+  width: 15vw;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  font-family: verdana;
+}
+
+.jennaText{
+  width: 15vw;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  font-family: verdana;
+}
+
+.estherHeader{
+  font-size: 0.8vw;
+}
+
+.estherPara{
+  font-size: 0.8vw;
+}
+
+.jennaHeader{
+  font-size: 0.8vw;
+}
+
+.jennaPara{
+  font-size: 0.8vw;
+}
+
+.bottomDiv{
+  background-color: #262626;
+  height: 5vw;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -20px;
+}
+
+.bottomPara{
+  color: whitesmoke;
+  font-family: impact;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.estherImage{
+  position: absolute;
+  height: 10vw;
+  bottom: 6.5vw;
+  right: 2vw;
+}
+
+.jennaImage{
+  position: absolute;
+  height: 10vw;
+  bottom: 6.5vw;
+  right: 2vw;
+}

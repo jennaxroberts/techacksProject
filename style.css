@@ -1,0 +1,296 @@
+body{
+  background-color: #DCCCBB;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAB464;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 14px;
+  font-family: verdana;
+  color: #262626;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.navTitle) {
+  color: #A7754D;
+}
+
+.homePage{
+  text-decoration: underline;
+}
+
+.navTitle{
+  font-size: 40px;
+  font-family: impact;
+  padding-left: 5vw;
+}
+
+.homePage,.actionPage,.aboutPage,.learnPage{
+  padding-top: 27px;
+}
+
+.aboutPage{
+  padding-right: 5vw;;
+}
+
+.filler{
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: cadetblue;
+  height: 68px;
+}
+
+.headerImage{
+  margin-left: -8px;
+  margin-right: -8px;
+  background-image: url("https://media.giphy.com/media/mgByAN6FfHTnq/giphy.gif");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headerText {
+  text-align: center; 
+  padding: 50px;
+  position: absolute;
+  top: 90%;  
+  color: whitesmoke;
+  background-color: #A7754D;
+  font-family: verdana;
+  font-size: 30px;
+}
+
+.div2{
+  margin-left: 25vw;
+  margin-right: -8px;
+  background-color: #A7754D;
+  height: 30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.image2 {
+  height: 20vw;
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  //transform: translate(-50%, -50%);
+  margin-left: -8px;
+  /* border-color: #A7754D;
+  border-width: 10px;
+  border-style: solid; */
+} 
+
+.para2{
+  width: 32vw;
+  position: absolute;
+  top: 4vw;
+  right: 5vw;
+  margin-right: -8px;
+  font-family: verdana;
+  color: whitesmoke;
+  font-size: 1.1vw;;
+  //background-color: pink;
+}
+
+.div3{
+  margin-left: -8px;
+  margin-right: -8px;
+  //margin-bottom: 5vw;;
+  //background-color: pink;
+  height: 25vw;
+  width: 90vw;
+  position: relative;
+  left: 5vw;
+}
+
+.learnDiv{
+  background-color: #A7754D;
+  width: 25vw;
+  height: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 3.75vw;
+  //position: relative;
+}
+
+.learnPara{
+  font-size: 1.3vw;
+  font-family: verdana;
+  position: absolute;
+  width: 16vw;
+  top: 1vw;
+  left: 4.5vw;
+  color: whitesmoke;
+}
+
+.learnButton{
+  position: absolute;
+  bottom: 2vw;
+  width: 5vw;
+  height: 3vw;
+  left: 10vw;
+  //height: 1vw;
+  font-family: impact;
+  font-size: 1.3vw;
+  color: #262626;
+  background-color: #EAB464;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //padding-left: 15px;
+  //padding-right: 15px;
+  border-color: #EAB464;
+}
+
+.actionDiv{
+  background-color: #A7754D;
+  width: 25vw;
+  height: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 32.5vw;
+}
+
+.actionPara{
+  font-size: 1.3vw;
+  font-family: verdana;
+  position: absolute;
+  width: 16vw;
+  top: 1vw;
+  left: 4.5vw;
+  color: whitesmoke;
+}
+
+.actionButton{
+  position: absolute;
+  bottom: 2vw;
+  width: 8vw;
+  height: 3vw;
+  left: 8.5vw;
+  //height: 1vw;
+  font-family: impact;
+  font-size: 1.3vw;
+  color: #262626;
+  background-color: #EAB464;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //padding-left: 15px;
+  //padding-right: 15px;
+  border-color: #EAB464;
+}
+
+.aboutDiv{
+  background-color: #A7754D;
+  width: 25vw;
+  height: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 61.25vw;
+}
+
+.aboutPara{
+  font-size: 1.3vw;
+  font-family: verdana;
+  position: absolute;
+  width: 16vw;
+  top: 1vw;
+  left: 4.5vw;
+  color: whitesmoke;
+}
+
+.aboutButton{
+  position: absolute;
+  bottom: 2vw;
+  width: 5vw;
+  height: 3vw;
+  left: 10vw;
+  //height: 1vw;
+  font-family: impact;
+  font-size: 1.3vw;
+  color: #262626;
+  background-color: #EAB464;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //padding-left: 15px;
+  //padding-right: 15px;
+  border-color: #EAB464;
+}
+
+.moneyImage{
+  position: absolute;
+  bottom: 22vw;
+  height: 15vw;
+}
+
+.moneyImage2{
+  position: absolute;
+  bottom: 38vw;
+  height: 11vw;
+  left: -3vw;
+  transform: rotate(20deg);
+}
+
+.moneyImage3{
+  position: absolute;
+  bottom: 50vw;
+  height: 10vw;
+  left: 5vw;
+  transform: rotate(50deg);
+}
+
+.moneyImage4{
+  position: absolute;
+  bottom: 60vw;
+  height: 9vw;
+  left: -4vw;
+  //transform: rotate(8deg);
+}
+
+.bottomFiller{
+  //background-color: #262626;
+  height: 22vw;
+}
+
+.bottomDiv{
+  background-color: #262626;
+  height: 5vw;
+
+  /* why does it not span the entire width of the page without the negative margins? */
+  margin-left: -5vw;
+  margin-right: -5vw;
+}
+
+.bottomPara{
+  color: whitesmoke;
+  font-family: impact;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 2vw;
+}

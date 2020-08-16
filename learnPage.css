@@ -1,0 +1,304 @@
+body{
+  background-color: #DCCCBB;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAB464;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-size: 14px;
+  font-family: verdana;
+  color: #262626;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.navTitle) {
+  color: #A7754D;
+}
+
+.learnPage{
+  text-decoration: underline;
+}
+
+.navTitle{
+  font-size: 40px;
+  font-family: impact;
+  padding-left: 5vw;
+}
+
+.homePage,.actionPage,.aboutPage,.learnPage{
+  padding-top: 27px;
+}
+
+.aboutPage{
+  padding-right: 5vw;;
+}
+
+.filler{
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: cadetblue;
+  height: 68px;
+}
+
+.div1{
+background-color: #A7754D;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  //border-radius: 10px;
+  font-family: verdana;
+  color: whitesmoke;
+}
+
+.button1,.button2,.button3{
+  font-family: verdana;
+  display: block;
+  font-size: 0.8vw;
+  background-color: #DCCCBB;
+  border-color: #DCCCBB;
+  color: #262626;
+  border-radius: 10px;
+  padding: 0.5vw;
+  //width: 20vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+} 
+
+.button2,.button3{
+  margin-top: 4vw;
+} 
+
+.noMarginTop{
+  font-family: verdana;
+  display: block;
+  font-size: 0.8vw;
+  background-color: #DCCCBB;
+  border-color: #DCCCBB;
+  color: #262626;
+  border-radius: 10px;
+  padding: 0.5vw;
+  //width: 20vw;
+  margin-bottom: 1vw;
+  margin-top: 0vw;
+}
+
+.button4,.button5,.button6,.button7{
+  font-family: verdana;
+  display: block;
+  font-size: 0.8vw;
+  background-color: #DCCCBB;
+  border-color: #DCCCBB;
+  color: #262626;
+  border-radius: 10px;
+  padding: 0.5vw;
+  //width: 20vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+} 
+
+.button5,.button6,.button7{
+  margin-top: 2.1vw;
+}
+
+
+.noMarginTop{
+  margin-top: 2vw;
+}
+
+.buttonsDiv{
+  position: relative;
+  //background-color: pink;
+  height: 500px;
+}
+
+.basicsHeader{
+  font-family: verdana;
+  color: #262626;
+  font-size: 1.2vw;
+  top: -2vw;
+  left: 15vw;
+  position: absolute;
+}
+
+.typesHeader{
+  font-family: verdana;
+  color: #262626;
+  font-size: 1.2vw;
+  top: -2vw;
+  right: 18vw;
+  position: absolute;
+}
+
+.div2{
+  background-color: #A7754D;
+  width: 33vw;
+  height: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 15vw;
+  font-family: verdana;
+  overflow: scroll;
+}
+
+.div3{
+  background-color: #A7754D;
+  width: 33vw;
+  height: 20vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  right: 15vw;
+  font-family: verdana;
+  overflow: scroll;
+}
+
+.div2Content{
+  margin-left: 3vw;
+  margin-top: 2vw;
+  width: 18vw;
+  color: whitesmoke;
+}
+
+.div3Content{
+  margin-left: 3vw;
+  margin-top: 2vw;
+  width: 18vw;
+  color: whitesmoke;
+}
+
+.saveMoney{
+  padding-bottom: 1vw;
+}
+
+.indexFunds{
+  padding-bottom: 1vw;
+}
+
+.rule72,.companyInterest,.saveMoney {
+  display: none;
+}
+
+.indexFunds, .mutualFunds, .stocks, .bonds {
+  display: none;
+}
+
+.show {
+  display: initial;
+}
+
+.hide {
+  display: none;
+}
+
+.pigImage{
+    /* flip horizontally */
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: 40vw;
+    left: 5vw;
+    height: 15vw;
+}
+
+.pigImage2{
+    /* flip horizontally */
+    position: absolute;
+    bottom: 40vw;
+    right: 5vw;
+    height: 15vw;
+}
+
+.bottomDiv{
+  background-color: #262626;
+  height: 5vw;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  position: relative;
+}
+
+.bottomPara{
+  color: whitesmoke;
+  font-family: impact;
+  font-size: 1vw;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.donaldDuck{
+  position: absolute;
+  height: 13vw;
+  bottom: -61.5vw;
+  left: 1vw;
+} 
+
+  .donald2{
+  position: absolute;
+  height: 14vw;
+  bottom: 2.8vw;
+  right: 1vw;
+} 
+
+.dollarSign1{
+  position: absolute;
+  height: 5vw;
+  top: 1.25vw;
+  right: 3vw;
+}
+
+.piggyBank1{
+  position: absolute;
+  height: 5vw;
+  top: 7.5vw;
+  right: 3vw;
+}
+
+.dollarSign2{
+  position: absolute;
+  height: 5vw;
+  bottom: 1.35vw;
+  right: 3vw;
+}
+
+.dollarSign3{
+  position: absolute;
+  height: 5vw;
+  top: 1.25vw;
+  right: 3vw;
+}
+
+.piggyBank2{
+  position: absolute;
+  height: 5vw;
+  top: 7.5vw;
+  right: 3vw;
+}
+
+.dollarSign4{
+  position: absolute;
+  height: 5vw;
+  bottom: 1.35vw;
+  right: 3vw;
+}
