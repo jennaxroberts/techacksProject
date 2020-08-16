@@ -62,8 +62,8 @@ li a:hover:not(.navTitle) {
 
 .actionClass{
   background-color: #A7754D;
-  padding-right: 90px;
-  padding-left: 50px;
+  padding-right: 7vw;
+  padding-left: 3.5vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
   width: 60vw;
@@ -80,8 +80,8 @@ li a:hover:not(.navTitle) {
 
 .timeline{
 background-color: #A7754D;
-  padding-right: 50px;
-  padding-left: 90px;
+  padding-right: 7vw;
+  padding-left: 6.5vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
   //margin-right: -8px;
@@ -144,7 +144,7 @@ background-color: #A7754D;
 .buttonsContent{
   margin-left: 3vw;
   margin-top: 2vw;
-  width: 40vw;
+  width: 35vw;
   color: whitesmoke;
   font-family: verdana;
 }
@@ -168,11 +168,11 @@ background-color: #A7754D;
   height: 40vw;
 }
 
-.piggyBank3{
+.moneyHand{
   position: absolute;
-  height: 5vw;
-  bottom: 20px;
-  right: 20px;
+  height: 12vw;
+  bottom: 3vw;
+  right: 0vw;
 }
 
 .actionHeader{
@@ -212,5 +212,23 @@ background-color: #A7754D;
 }
 
 .giphy1{
-  
+  position: absolute;
+  right: -27.8vw;
+  top: 1.45vw;
+  height: 26vw;
 }
+
+.giphy2{
+  position: absolute;
+  left: -35vw;
+  top: -1.2vw;
+  height: 24vw;
+}
+
+.graph1{
+  position: absolute;
+  right: 1.4vw;
+  top: 1.2vw;
+  height: 13vw;
+}
+

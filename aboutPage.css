@@ -97,6 +97,7 @@ li a:hover:not(.navTitle) {
   border-radius: 10px;
   font-family: verdana;
   color: whitesmoke;
+  position: relative;
 }
 
 .missionHeader{
@@ -137,14 +138,14 @@ li a:hover:not(.navTitle) {
 }
 
 .estherText{
-  width: 15vw;
+  width: 13vw;
   margin-left: 3vw;
   margin-top: 2vw;
   font-family: verdana;
 }
 
 .jennaText{
-  width: 15vw;
+  width: 13vw;
   margin-left: 3vw;
   margin-top: 2vw;
   font-family: verdana;
@@ -195,3 +196,11 @@ li a:hover:not(.navTitle) {
   bottom: 6.5vw;
   right: 2vw;
 }
+
+.piggy2{
+  position: absolute;
+  bottom: 0vw;
+  right: 10vw;
+  height: 10vw;
+}
+
